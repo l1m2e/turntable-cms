@@ -1,0 +1,23 @@
+html,
+body,
+#app {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+html.dark {
+	background: #121212;
+}
+#nprogress .bar {
+	background: #6777ef !important;
+}
+
+body::-webkit-scrollbar {
+	width: 8px;
+	background: var(--color-neutral-2);
+}
+body::-webkit-scrollbar-thumb {
+	background: var(--color-neutral-4);
+	border-radius: 4px;
+}
