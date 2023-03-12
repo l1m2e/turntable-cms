@@ -1,23 +1,30 @@
 html,
 body,
 #app {
-	height: 100%;
-	margin: 0;
-	padding: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 html.dark {
-	background: #121212;
+  background: #3a3a3d;
 }
+body {
+  background-color: #f2f3f5;
+}
+body[arco-theme='dark'] {
+  background: #3a3a3d;
+}
+
 #nprogress .bar {
-	background: #6777ef !important;
+  background: #6777ef !important;
 }
 
 body::-webkit-scrollbar {
-	width: 8px;
-	background: var(--color-neutral-2);
+  width: 8px;
+  background: var(--color-neutral-2);
 }
 body::-webkit-scrollbar-thumb {
-	background: var(--color-neutral-4);
-	border-radius: 4px;
+  background: var(--color-neutral-4);
+  border-radius: 4px;
 }
